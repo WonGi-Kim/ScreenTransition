@@ -16,6 +16,10 @@
 		B2C3E8E2289552A80019EDF5 /* ScreenTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3E8E1289552A80019EDF5 /* ScreenTransitionTests.swift */; };
 		B2C3E8EC289552A80019EDF5 /* ScreenTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3E8EB289552A80019EDF5 /* ScreenTransitionUITests.swift */; };
 		B2C3E8EE289552A80019EDF5 /* ScreenTransitionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3E8ED289552A80019EDF5 /* ScreenTransitionUITestsLaunchTests.swift */; };
+		B2C3E8FD289556850019EDF5 /* SeguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3E8FC289556840019EDF5 /* SeguePushViewController.swift */; };
+		B2C3E8FF289559440019EDF5 /* SeguePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3E8FE289559440019EDF5 /* SeguePresentViewController.swift */; };
+		B2C3E90128955AF10019EDF5 /* CodePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3E90028955AF10019EDF5 /* CodePushViewController.swift */; };
+		B2C3E90328955D760019EDF5 /* CodePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3E90228955D760019EDF5 /* CodePresentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		B2C3E8E7289552A80019EDF5 /* ScreenTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C3E8EB289552A80019EDF5 /* ScreenTransitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTransitionUITests.swift; sourceTree = "<group>"; };
 		B2C3E8ED289552A80019EDF5 /* ScreenTransitionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTransitionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2C3E8FC289556840019EDF5 /* SeguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePushViewController.swift; sourceTree = "<group>"; };
+		B2C3E8FE289559440019EDF5 /* SeguePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePresentViewController.swift; sourceTree = "<group>"; };
+		B2C3E90028955AF10019EDF5 /* CodePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePushViewController.swift; sourceTree = "<group>"; };
+		B2C3E90228955D760019EDF5 /* CodePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePresentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				B2C3E8D3289552A80019EDF5 /* Assets.xcassets */,
 				B2C3E8D5289552A80019EDF5 /* LaunchScreen.storyboard */,
 				B2C3E8D8289552A80019EDF5 /* Info.plist */,
+				B2C3E8FC289556840019EDF5 /* SeguePushViewController.swift */,
+				B2C3E8FE289559440019EDF5 /* SeguePresentViewController.swift */,
+				B2C3E90028955AF10019EDF5 /* CodePushViewController.swift */,
+				B2C3E90228955D760019EDF5 /* CodePresentViewController.swift */,
 			);
 			path = ScreenTransition;
 			sourceTree = "<group>";
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C3E8FD289556850019EDF5 /* SeguePushViewController.swift in Sources */,
+				B2C3E90128955AF10019EDF5 /* CodePushViewController.swift in Sources */,
 				B2C3E8CF289552A60019EDF5 /* ViewController.swift in Sources */,
 				B2C3E8CB289552A60019EDF5 /* AppDelegate.swift in Sources */,
+				B2C3E90328955D760019EDF5 /* CodePresentViewController.swift in Sources */,
+				B2C3E8FF289559440019EDF5 /* SeguePresentViewController.swift in Sources */,
 				B2C3E8CD289552A60019EDF5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
